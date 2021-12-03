@@ -5,16 +5,28 @@
     }
     .header .inner {
         max-width: 60px;
-        height: 190px;
-        margin: 0 auto;
+        margin: 20px 70px;
     }
     .header .left {
        clear: left;
+       border-top: 10px solid white;
+       border-right: 10px solid white;
+       border-bottom: 5px solid white;
+       border-left:  10px  solid white;
     }
     .header .header_center {
-        clear: left;
+       clear: left;
+       border-top: 5px solid white;
+       border-right: 10px solid white;
+       border-bottom: 5px solid white;
+       border-left:  10px  solid white;
     }
-        
+    .header .right  {
+        border-top: 5px solid white;
+        border-right: 10px solid white;
+        border-bottom: 10px solid white;
+        border-left:  10px  solid white;
+    }  
     
     .left {
         clear: left;
@@ -25,16 +37,16 @@
     .right {
         clear: left;
         width: 200px;
-        height: 210px;
+        height: 200px;
     }
     .right .top {
-        margin: 20px 0 0 30px;
+        margin: 20px 20px 2px 30px;
     }
     .right .center {
-        margin: 10px 0 0 30px;
+        margin: 3px 20px 2px 30px;
     }
     .right .bottom{
-        margin: 10px 0 0 30px; 
+        margin: 3px 20px 20px 30px; 
     }
     .footer {
         max-width: 200px;

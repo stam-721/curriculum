@@ -11,32 +11,39 @@
     width: 160px;
     height: 60px;
     border: 1px solid #141f40;
-    margin: 20px 0 0 200px;
+    margin: 20px 0 20px 200px;
    
 }
-.header .inner .left {
+.header  .left {
     height: 40px;
     width: 40px;
     background-color: #a9004b;
-    border: 5px solid white;
-    margin: 6px 0;
+    border-top: 10px solid white;
+    border-right: 5px solid white;
+    border-bottom: 10px solid white;
+    border-left:  10px  solid white;
     float: left;
-    
 }
-.header .inner .header_center {
+.header .header_center {
     height: 40px;
     width: 40px;
     background-color: #a9004b;
-    border: 5px solid white; 
-    margin: 6px 0;
+    border-top: 10px solid white;
+    border-right: 5px solid white;
+    border-bottom: 10px solid white;
+    border-left:  5px  solid white;
+    
     float: left;
 }
 .header .right {
     height: 40px;
     width: 40px;
     background-color: #a9004b;
-    border: 5px solid white;
-    margin: 6px 0;
+    border-top: 10px solid white;
+    border-right: 10px solid white;
+    border-bottom: 10px solid white;
+    border-left:  5px  solid white;
+    
     float: left;
 }
 .left {
@@ -55,8 +62,8 @@
     height: 40px;
     width: 140px;
     background-color: #ff863f;
-    border: 4px solid white;
-    margin: 40px 60px 0 40px;
+    border: 5px solid white;
+    margin: 40px 60px 5px 40px;
 
     
 }
@@ -64,16 +71,16 @@
     height: 40px;
     width: 140px;
     background-color: #ff863f;
-    border: 4px solid white;
-    margin: 4px 60px 4px 40px;
+    border: 5px solid white;
+    margin: 5px 60px 5px 40px;
 }
 
 .right .bottom {
     height: 40px;
     width: 140px;
     background-color: #ff863f;
-    border: 4px solid white;
-    margin: 3px 60px 40px 40px;
+    border: 5px solid white;
+    margin: 5px 60px 40px 40px;
 }
 .footer {
     height: 100px;
