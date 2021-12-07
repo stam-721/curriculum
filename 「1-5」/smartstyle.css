@@ -1,0 +1,55 @@
+@media screen and (max-width:479px) {
+    .header {
+        max-width: 200px; 
+        height: 200px;
+    }
+    .header .inner {
+        max-width: 60px;
+        height: 160px;
+        margin: 10px 70px;
+    }
+    
+    .header .inner .left {
+       clear: left;
+       border-bottom: 5px solid white ;
+       border-right: 10px solid white;
+    }
+    .header .inner .header_center {
+        clear: left;
+        border-top: 5px solid white ;
+        border-bottom: 5px solid white;
+        border-right: 10px solid white;
+        border-left: 10px solid white;
+    }
+    .header .right {
+        border-top: 5px solid white ;
+        border-bottom: 10px solid white ;
+        border-right: 10px solid white;
+        border-left: 10px solid white;
+        
+    }    
+    
+    .left {
+        clear: left;
+        width: 200px;
+        height: 100px;
+       
+    }
+    .right {
+        clear: left;
+        width: 200px;
+        height: 210px;
+    }
+    .right .top {
+        margin: 20px 0 0 30px;
+    }
+    .right .center {
+        margin: 10px 0 0 30px;
+    }
+    .right .bottom{
+        margin: 10px 0 0 30px; 
+    }
+    .footer {
+        max-width: 200px;
+    }
+}
