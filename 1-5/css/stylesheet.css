@@ -85,3 +85,9 @@
     background-color: #ff863f;
     margin: 5px 60px 40px 40px;
 }
+.footer {
+    height: 100px;
+    width: 400px;
+    background-color: #d98d30;
+    clear: left;
+}
