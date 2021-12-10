@@ -1,11 +1,6 @@
 <?php
-$fruits = ["apple"=>"といったらりんご","orange"=>"といったらみかん","peach"=>"といったらもも"];
-
-foreach ($fruits as $key=>$value) {
-    
-    echo $key;
-    echo $value;
-    echo "<br>";
-}
-    
+$fruits = ["apple"=>"りんご","orange"=>"みかん","peach"=>"もも"];
+foreach ($fruits as $key  => $value) {
+    echo $key,"といったら",$value,"<br>";   
+};    
 ?>
